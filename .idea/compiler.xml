@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qcmicro-api" />
+        <module name="qcmicro-config-consumer-6001" />
+        <module name="qcmicro-config-eureka-7001" />
+        <module name="qcmicro-config-eureka-7002" />
+        <module name="qcmicro-config-provider-dept-8001" />
+        <module name="qcmicro-config-provider-user-8011" />
+        <module name="qcmicro-config-server" />
+        <module name="qcmicro-config-zuul-1011" />
+        <module name="qcmicro-dashboard-1001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qcmicro-api" target="1.8" />
+      <module name="qcmicro-config-consumer-6001" target="1.8" />
+      <module name="qcmicro-config-eureka-7001" target="1.8" />
+      <module name="qcmicro-config-eureka-7002" target="1.8" />
+      <module name="qcmicro-config-provider-dept-8001" target="1.8" />
+      <module name="qcmicro-config-provider-user-8011" target="1.8" />
+      <module name="qcmicro-config-server" target="1.8" />
+      <module name="qcmicro-config-zuul-1011" target="1.8" />
+      <module name="qcmicro-dashboard-1001" target="1.8" />
+      <module name="qcmicro-master" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

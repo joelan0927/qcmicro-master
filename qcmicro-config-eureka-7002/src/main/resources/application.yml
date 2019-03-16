@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: qcmicro-config-eureka-7002

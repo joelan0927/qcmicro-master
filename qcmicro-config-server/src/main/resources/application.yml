@@ -1,0 +1,30 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: qcmicro-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:joelan0927/qcmicro.git
+          search-paths: qcmicro
+      label: master
+#    bus:
+#      enable: true
+#      trace:
+#        enable: true
+
+#    rabbitmq:
+#      host:
+#      port:
+#      username:
+#      password:
+#managerment:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+
+

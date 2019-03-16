@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: qcmicro-config-eureka-7001    #需要从github上读取的资源名称，注意没有yml后缀名
+      profile: dev                        #选择需要获取的环境
+      lable: master                       #选择github配置文件所在的分支
+      uri: http://config-server.com:9001  #SpringCloudConfig获取的服务地址
