@@ -13,6 +13,7 @@
         <module>qcmicro-config-consumer-6001</module>
         <module>qcmicro-config-provider-user-8011</module>
         <module>qcmicro-config-zuul-1011</module>
+        <module>qcmicro-config-provider-dept-8002</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,6 +57,13 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>1.3.0</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>4.1.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

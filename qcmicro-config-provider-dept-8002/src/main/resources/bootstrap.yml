@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: qcmicro-config-provider-dept-8002
+      profile: dev
+      label: master
+      uri: http://config-server.com:9001
